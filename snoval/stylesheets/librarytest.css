@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 980px;
+/*  background-color: #7e06c8; */
+/*  background-color: #f3f3f3; */
+   background-color: #fffff0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ /* background-image: url('../images/booksimage.jpg'); */
+}
+
+
+tr:nth-child(even) {  
+  background-color: #9bb7bd;
+}

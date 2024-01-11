@@ -1,0 +1,1823 @@
+@media only screen and (min-width: 1200px) and (orientation: landscape) {
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #f3f3f3;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+ /* background-image: url('../images/booksimage.jpg'); */
+}
+
+tbody {  
+  background-color: #9bb7bd; 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 98%;
+  height: 70px;
+  margin: auto;
+/*  margin: 0 0 0 0; */
+  padding: 0;
+  background: #9bb7bd;  
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+/*  padding: 5px; */
+  font-size: 40px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  width: 100%;
+  padding: 0px;
+  font-size: 30px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+dl {
+/*  clear: both; */
+/*  overflow: hidden; */
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+/*  margin: auto; */
+  align: center;
+  width: 94%; 
+  font-size: 30px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+dt {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  background: #9bb7bd; 
+  width: 80%;
+  text-align: center; 
+  align: center;
+}
+
+/* Div for Login Page */
+div.user  {
+    width: 100%;
+	font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+/*  border: 2px solid  black; */
+  border-collapse: collapse;
+  border-spacing: 0px;
+/*  border-bottom: double; */
+/*  background: #9bb7bd; */
+  color: Black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center	;
+}
+
+input {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 40%; 
+}
+
+select {	
+	font-size: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+/*	background: #FFEBCD; */
+	text-align: center; 
+	height: 40px;
+	border: 2px solid black;	
+}
+
+.dropdown {
+	margin: auto;	
+	align: center;
+	font-size: 24px;
+	width: 35%;
+/*	width: 700px;  */
+/*	border: 4px solid black; */
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+input.dropdown {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 45%; 
+	height: 40px;
+	border: 2px solid black; 
+	font-weight: 600; */  
+	-webkit-appearance: none;
+	border-radius: 0px;	
+}
+
+button {	
+	font-size: 24px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table.center { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	margin-left: auto;
+	margin-right: auto; 
+	width: 40%;
+}
+
+a.actions {
+	text-decoration: none; 
+}
+
+a.actionsx {
+	color: purple; 
+}
+
+a.centerx {
+/*  text-decoration: none; */
+  color: purple;
+}
+
+a {
+/*	text-decoration: none; */
+}
+
+td.hd3 {
+	width: 40%;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd; 
+	padding-left:0px;
+  	text-align: center; 
+}
+
+#hd3 {
+	width: 40%;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd; 
+	padding-left:0px;
+  	text-align: center;  
+}
+
+img {
+	border: 3px solid gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 25%;
+	align: center;
+}
+
+p.center {
+	text-align: center;
+	font-size: 14px;
+}
+
+hr { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	height: 4px;
+	width: 95%;
+	margin: auto;
+	background-color: #DCDCDC; 
+	border: 4px;
+}
+
+footer {
+	position: relative; 
+	bottom: 10px;
+  width: 940px;
+  height: 20px;
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+/*  background-color: #FFFFF0; */   
+}
+
+footer.bottom {
+	position: fixed; 
+	bottom: 0px;
+  width: 200px;
+  height: 30px;
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+/*  background-color: #f3f3f3; */
+/*  background-color: #FFFFF0; */   
+}
+
+/* Start CSS Definitions for Choice */
+
+table { 	
+	width: 85%;
+}
+
+table.central { 	
+	margin: auto;
+	width: 75%;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 5px; 
+  font-size: 40px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+#hd1 {
+	width: 25%;
+	margin: auto;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background-color: #f3f3f3; 
+	padding-left:5px;
+	color: #9538AE;
+  	text-align: center;  
+}
+
+#hd2 {
+	width: 75%;
+    font-size: 50px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background: #f3f3f3; 
+	padding-left:0px;
+  	text-align: center;  
+}
+
+table.details {
+	margin: auto;
+  	width: 99%;
+	border: 4px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.details tr td{
+	width: 25%; 
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background: #9bb7bd;
+	padding-left:5px;
+  text-align: left; 
+}
+
+table.details tr th {
+    width: 25%;
+	font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  border: 2px solid  black;
+  border-collapse: collapse;
+  border-spacing: 0px;
+/*  border-bottom: double; */
+  background: #9bb7bd;
+  color: Black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center;
+}
+
+table.add {
+	margin: auto;
+  	width: 60%;
+	border: 4px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.add tr td{
+	width: 25%; 
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background: #9bb7bd;
+	padding-left:5px;
+  text-align: left; 
+}
+
+table.add tr th {
+    width: 30%;
+	font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  border: 2px solid  black;
+  border-collapse: collapse;
+  border-spacing: 0px;
+/*  border-bottom: double; */
+  background: #9bb7bd;
+  color: Black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center;
+}
+
+table.rev {
+	margin: auto; 
+  	width: 60%;
+	border: 4px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.rev tr td {
+	width: 25%; 
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+/*	background: #9bb7bd; */
+	padding-left:5px;
+  	text-align: left; 
+}
+
+#addn {
+	width: 30%;
+	position: relative;
+	vertical-align: top;
+	top: 0%;
+	height: 300px;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+  	text-align: left; 
+}
+
+#addn2 {
+	width: 30%;
+	position: relative;
+	vertical-align: top;
+	top: 0%;
+	height: 300px;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+	background-color: #fffff0; 
+/*	background-color: #dadada; */
+/*	background: #9bb7bd; */
+/*	padding-right:4px; */
+  	text-align: left; 
+}
+
+input.update {	
+	font-size: 30px; 
+	top: 0%;
+/*	position: fixed; */
+	vertical-align: top;
+	height: 300px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 100%; 
+}
+
+textarea {
+	margin-left: 0px;
+	width: 100%;
+	height: 300px;
+	border: 6px solid black;
+	outline: none;
+	background-color: #fffff0;
+/*	background-color: #f3f3f3; */
+}
+
+#td-nh {
+	width: 1%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: right;  
+}
+
+#td-dc {
+	width: 10%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-left: 0px solid red;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:4px;
+  	text-align: center;  
+}
+
+#td-dgh {
+	width: 8%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: center;  
+}
+
+#td-dn {
+	width: 1%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-right:4px;
+  	text-align: right; 
+}
+
+#td-ds {
+	width: 10%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-right:5px;
+  	text-align: left; 
+}
+
+#td-dg {
+	width: 8%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: left;  
+}
+
+#td-dgadd {
+	width: 3%;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: left;  
+}
+
+.flex-container2 {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	flex-direction: row;
+	background: #DCDCDC; 
+/*	background: #FFEBCD; */
+	text-align: center;
+	border: 1px solid  black;
+    font-size: 32px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+/* End of CSS Definitions for Choice Page */
+
+div.addtitle  {
+    width: 100%;
+	font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	border-spacing: 0px;
+	color: Black;
+  	padding-left:7px;
+  	padding-right:7px;
+  	text-align: left;
+}
+
+td.addtitle {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  font-size: 30px;
+  background: #9bb7bd; 
+  width: 80%;
+  text-align: center; 
+  text-indent: 7px; 
+}
+
+input.addauthor {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 51%; 
+}
+
+input.addtitle {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 70%; 
+}
+
+div.drop {
+/*	margin-left: auto; */
+/*	align: center; */
+	font-size: 30px;
+	width: 100%;    
+/*	border: 4px solid black; */
+	border-collapse: collapse;
+	background-color: #f3f3f3; 
+	border-spacing: 0px;
+}
+
+table.centerx { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	margin-left: auto;
+	margin-right: auto; 
+	width: 27%;
+}
+
+table.centerx tr td{
+/*	width: 70%; */
+    font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+/*	background: #9bb7bd; */
+	padding-left:5px;
+	background-color: #f3f3f3; 
+  text-align: left; 
+}
+
+p.centerx {
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  font-size: 28px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+table.button { 
+	width: 100%;
+	text-align:center;
+}
+
+table.button td {
+	background: #f3f3f3; 
+}
+
+table.button2 { 
+	margin: auto;
+	width: 60%;
+	border: 0px solid black;
+	
+	
+	text-align:center;
+}
+
+table.button2 td {
+	background: #f3f3f3; 
+	border: 0px solid black;
+}
+
+}
+
+/* --- */
+/* Media Setup for Mobile Device up to 400 px*/
+
+@media (max-width: 400px) {
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #f3f3f3;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+tbody {  
+  background-color: #9bb7bd;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  margin: 0 0 0 0;
+  padding: 0;
+  background: #9bb7bd;  
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+  font-size: 24px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  width: 100%;
+  padding: 0px;
+  font-size: 20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+dl {
+  clear: both;
+  overflow: hidden;
+  margin: auto;
+  align: center;
+  width: 100%; 
+  font-size: 30px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+dt {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  background: #9bb7bd; 
+  width: 95%;
+  text-align: center; 
+  align: center;
+}
+
+input {	
+	font-size: 20px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 70%; 
+}
+
+select {	
+	font-size: 26px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+/*	background: #FFEBCD; */ 
+	color: black;
+	border: 2px solid black;
+	width: 100%;	
+}
+
+.dropdown {
+	margin: auto;	
+	align: center;
+	font-size: 30px;
+	width: 100%;  
+	color: black;  
+/*	border-collapse: collapse; */
+	border-radius: 0px;
+}
+
+input.dropdown {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background: #DCDCDC;   
+	width: 100%; 
+	border: 2px solid black; 
+	-webkit-appearance: none;
+	border-radius: 0px;
+	font-weight: 800;
+}
+
+#addn {
+	width: 30%;
+	position: relative;
+	vertical-align: top;
+	top: 0%;
+	height: 300px;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+  	text-align: left; 
+}
+
+table.rev {
+	margin: auto; 
+  	width: 70%;
+	border: 4px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.rev tr td {
+	width: 25%; 
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+/*	background: #9bb7bd; */
+	padding-left:5px;
+  	text-align: left; 
+}
+
+#addn2 {
+	width: 95%;
+	position: relative;
+	vertical-align: top;
+	top: 0%;
+	height: 300px;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+	background-color: #fffff0; 
+/*	background-color: #dadada; */
+/*	background: #9bb7bd; */
+/*	padding-right:4px; */
+  	text-align: left; 
+}
+
+textarea {
+	margin-left: 0px;
+	width: 100%;
+	height: 300px;
+	border: 6px solid black;
+	outline: none;
+	background-color: #fffff0;
+/*	background-color: #f3f3f3; */
+}
+
+/* Div for Login Page */
+div.user  {
+    width: 100%;
+	font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+/*  border: 2px solid  black; */
+  border-collapse: collapse;
+  border-spacing: 0px;
+/*  border-bottom: double; */
+/*  background: #9bb7bd; */
+  color: Black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center	;
+}
+
+button {	
+	font-size: 24px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table.button2 { 
+	margin: auto;
+	width: 80%;
+	border: 0px solid black;	
+	text-align:center;
+}
+
+table.button2 td {
+	background: #f3f3f3; 
+	border: 0px solid black;
+}
+
+table.center { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%;
+}
+
+a {
+	color: black;
+/*	text-decoration: none; */
+}
+
+td.hd3 {
+	width: 40%;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd; 
+	padding-left:0px;
+  	text-align: center; 
+}
+
+#hd3 {
+	width: 60%;
+    font-size: 26px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;; 
+	padding-left:0px;
+	color: black;
+  	text-align: center;  
+}
+
+img {
+	border: 3px solid gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 30%;
+	align: center;
+}
+
+p.center {
+	text-align: center;
+	font-size: 14px;
+}
+
+hr { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	height: 2px;
+	margin-top: 4;
+	margin: auto;
+	width: 95%;
+	background-color: black; 
+	border: 4px;
+}
+
+footer {
+	position: relative; 
+	bottom: 10px;
+  width: 940px;
+  height: 20px;
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+/*  background-color: #FFFFF0; */   
+}
+
+footer.bottom {
+	position: relative; 
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+/*  margin: 0 0 10px 0; */
+  padding-top: 15px;
+  padding-left: 4px;
+/*  background-color: #f3f3f3; */
+/*  background-color: #FFFFF0; */   
+}
+
+
+/* Start CSS Definitions for Choice page */
+
+table { 	
+	width: 100%;
+}
+
+table.central { 	
+	margin: auto;
+	width: 75%;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px; 
+  font-size: 24px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+table.details {
+	margin: auto;
+  	width: 98%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.details tr td {
+	width: 70%; 
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background: #9bb7bd; 
+	padding-left:5px;
+  text-align: left; 
+}
+
+table.details tr th {
+    width: 70%;
+	font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  border: 2px solid  black;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  background: #9bb7bd; 
+  color: black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center;
+}
+
+#hd1 {
+	width: 25%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background-color: #f3f3f3; 
+	padding-left:5px;
+  	text-align: left;  
+}
+
+#hd2 {
+	width: 75%;
+    font-size: 80px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background: #f3f3f3; 
+	padding-left:0px;
+  	text-align: center;  
+}
+
+#td-nh {
+	width: .5%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: right;  
+}
+
+#td-dn {
+	width: .5%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-right:4px;
+  	text-align: right; 
+}
+
+#td-dc {
+	width: .5%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-left: 0px solid red;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:4px;
+  	text-align: center;  
+}
+
+#td-dgh {
+	width: 3%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: center;  
+}
+
+#td-ds {
+	width: .5%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-right:5px;
+  	text-align: left; 
+}
+
+#td-dg {
+	width: 3%;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: left;  
+}
+
+.flex-container2 {
+	margin: auto;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	flex-direction: row;
+	background: #DCDCDC; 
+/*	background: #FFEBCD; */
+	text-align: center;
+	border: 1px solid  black;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+/* End Definitions for Choice Page */
+
+div.addtitle  {
+    width: 95%;
+	font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	border-spacing: 0px;
+	color: Black;
+  	padding-left:0px;
+  	padding-right:0px;
+  	text-align: center;
+}
+
+td.addtitle {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  font-size: 30px;
+  background: #9bb7bd; 
+  width: 80%;
+  text-align: center; 
+  text-indent: 7px; 
+}
+
+dt.addtitle {
+  border: 1px solid black;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 500;
+  background: #9bb7bd; 
+  width: 95%;
+  text-align: center; 
+  text-indent: 0px; 
+}
+
+input.addauthor {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 85%; 
+}
+
+input.addtitle {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 90%; 
+}
+
+a.centerx {
+/*  text-decoration: none; */
+  color: purple;
+}
+
+table.centerx { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	margin-left: auto;
+	margin-right: auto; 
+	width: 90%;
+}
+
+table.centerx tr td{
+/*	width: 70%; */
+    font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+/*	background: #9bb7bd; */
+/*	padding-left:5px; */
+	background-color: #f3f3f3; 
+  text-align: left; 
+}
+
+p.centerx {
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  font-size: 28px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+div.drop {
+/*	margin-left: auto; */
+/*	align: center; */
+	font-size: 30px;
+	width: 100%;    
+/*	border: 4px solid black; */
+	border-collapse: collapse;
+	background-color: #f3f3f3; 
+	border-spacing: 0px;
+}
+
+table.button { 
+	width: 100%;
+	text-align:center;
+}
+
+table.button td {
+	background: #f3f3f3; 
+}
+
+}
+
+/* --- */
+/* Media Setup for Mobile Device between 400 px and 1200 px */
+
+@media (min-width: 401px) and (max-width: 1199px) {
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #f3f3f3;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+tbody {  
+  background-color: #9bb7bd;
+  width: 100%;
+}
+
+header {
+  width: 90%;
+  height: 55px;
+  margin: auto;
+  padding: 0;
+  background: #9bb7bd;  
+}
+
+header h1 {
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+  font-size: 30px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  width: 100%;
+  padding: 0px;
+  font-size: 26px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+dl {
+  clear: both;
+  overflow: hidden;
+  margin: auto;
+  width: 90%; 
+  font-size: 30px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+dt {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  background: #9bb7bd; 
+  width: 90%;
+/*  height: 60px; */
+  text-align: center; 
+  align: center;
+}
+
+input {	
+	font-size: 20px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 40%; 
+}
+
+select {	
+	font-size: 24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+/*	background: #FFEBCD; */
+	text-align: center; 
+	color: black;
+	height: 40px;
+	border: 2px solid black;	
+}
+
+.dropdown {
+	margin: auto;	
+	align: center;
+	font-size: 24px;
+	width: 60%;
+/*	width: 700px;  */
+/*	border: 4px solid black; */
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+input.dropdown {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 50%; 
+	height: 40px;
+	border: 2px solid black; 
+	background: #CDCDCD;
+	color: black;
+	font-weight: 600; */  
+	-webkit-appearance: none;
+	border-radius: 0px;	
+}
+
+#addn {
+	width: 30%;
+	position: relative;
+	vertical-align: top;
+	top: 0%;
+	height: 300px;
+    font-size: 28px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+  	text-align: left; 
+}
+
+table.rev {
+	margin: auto; 
+  	width: 70%;
+	border: 4px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.rev tr td {
+	width: 25%; 
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+/*	background: #9bb7bd; */
+	padding-left:5px;
+  	text-align: left; 
+}
+
+#addn2 {
+	width: 95%;
+	position: relative;
+	vertical-align: top;
+	top: 0%;
+	height: 300px;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+	background-color: #fffff0; 
+/*	background-color: #dadada; */
+/*	background: #9bb7bd; */
+/*	padding-right:4px; */
+  	text-align: left; 
+}
+
+textarea {
+	margin-left: 0px;
+	width: 100%;
+	height: 300px;
+	border: 6px solid black;
+	outline: none;
+	background-color: #fffff0;
+/*	background-color: #f3f3f3; */
+}
+
+button {	
+	font-size: 24px;
+	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table.button2 { 
+	margin: auto;
+	width: 80%;
+	border: 0px solid black;	
+	text-align:center;
+}
+
+table.button2 td {
+	background: #f3f3f3; 
+	border: 0px solid black;
+}
+
+	
+table.button { 
+	width: 100%;
+	text-align:center;
+}
+
+table.button td {
+	background: #f3f3f3; 
+}
+
+
+/* Div for Login Page */
+div.user  {
+    width: 100%;
+	font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+/*  border: 2px solid  black; */
+  border-collapse: collapse;
+  border-spacing: 0px;
+/*  border-bottom: double; */
+/*  background: #9bb7bd; */
+  color: Black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center	;
+}
+
+table.center { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	margin-left: auto;
+	margin-right: auto; 
+	width: 95%;
+}
+
+a {
+	color: black;
+/*	text-decoration: none; */
+}
+
+td.hd3 {
+	width: 40%;
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd; 
+	padding-left:0px;
+  	text-align: center; 
+}
+
+#hd3 {
+	width: 60%;
+    font-size: 26px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;; 
+	padding-left:0px;
+	color: black;
+  	text-align: center;  
+}
+
+img {
+	border: 3px solid gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 30%;
+	align: center;
+}
+
+p.center {
+	text-align: center;
+	font-size: 14px;
+}
+
+hr { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	height: 2px;
+	margin-top: 4;
+	margin: auto;
+	width: 95%;
+	background-color: black; 
+	border: 4px;
+}
+
+footer {
+	position: relative; 
+	bottom: 10px;
+  width: 940px;
+  height: 20px;
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+/*  background-color: #FFFFF0; */   
+}
+
+footer.bottom {
+	position: relative; 
+	bottom: 0px;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+/*  margin: 0 0 10px 0; */
+  padding: 10px 20px;
+/*  background-color: #f3f3f3; */
+/*  background-color: #FFFFF0; */   
+}
+
+
+/* Start CSS Definitions for Choice page */
+
+table { 	
+	width: 80%;
+/*	margin: auto; */
+}
+
+table.central { 	
+	margin: auto;
+	width: 75%;
+}
+
+h1 {
+  margin: auto; 
+/*  padding: 5px; */
+  font-size: 30px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center; 
+}
+
+table.details {
+	margin: auto;
+  	width: 95%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.details tr td {
+	width: 55%; 
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background: #9bb7bd; 
+	padding-left:5px;
+  text-align: left; 
+}
+
+table.details tr th {
+    width: 55%;
+	font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  border: 2px solid  black;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  background: #9bb7bd; 
+  color: black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center;
+}
+
+table.add {
+	margin: auto;
+  	width: 50%;
+	border: 4px solid black;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.add tr td {
+	width: 25%; 
+    font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: left; 
+}
+
+table.add tr th {
+    width: 30%;
+	font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  border: 2px solid  black;
+  border-collapse: collapse;
+  border-spacing: 0px;
+/*  border-bottom: double; */
+  background: #9bb7bd;
+  color: Black;
+  padding-left:7px;
+  padding-right:7px;
+  text-align: center;
+}
+
+#hd1 {
+	width: 30%;
+    font-size: 18px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background-color: #f3f3f3; 
+	padding-left:8px;
+  	text-align: left;  
+}
+
+#hd2 {
+	width: 60%;
+    font-size: 80px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background: #f3f3f3; 
+	padding-left:0px;
+/*  	text-align: center;  */
+}
+
+#td-nh {
+	width: 7%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-right: 0px solid red;
+	border-bottom: 0px solid red;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: right;  
+}
+
+#td-dn {
+	width: 7%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black; 
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-right:4px;
+  	text-align: right; 
+}
+
+#td-dc {
+	width: 10%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-left: 0px solid red;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:4px;
+  	text-align: center;  
+}
+
+#td-dgh {
+	width: 10%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: center;  
+}
+
+#td-ds {
+	width: 15%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-right:5px;
+  	text-align: left; 
+}
+
+#td-dg {
+	width: 15%;
+    font-size: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	background: #9bb7bd;
+	padding-left:5px;
+  	text-align: left;  
+}
+
+.flex-container2 {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	flex-direction: row;
+	background: #DCDCDC; 
+/*	background: #FFEBCD; */
+	text-align: center;
+	border: 1px solid  black;
+    font-size: 32px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+/* End Definitions for Choice Page */
+
+div.addtitle  {
+    width: 95%;
+	font-size: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	border-spacing: 0px;
+	color: Black;
+  	padding-left:0px;
+  	padding-right:0px;
+  	text-align: center;
+}
+
+td.addtitle {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  font-size: 30px;
+  background: #9bb7bd; 
+  width: 80%;
+  text-align: center; 
+  text-indent: 7px; 
+}
+
+dt.addtitle {
+  border: 1px solid black;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 500;
+  background: #9bb7bd; 
+  width: 95%;
+  height: 120px;
+  text-align: center; 
+  text-indent: 0px; 
+}
+
+input.addauthor {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 85%; 
+}
+
+input.addtitle {	
+	font-size: 24px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	width: 90%; 
+}
+
+a.centerx {
+/*  text-decoration: none; */
+  color: purple;
+}
+
+a.actionsx {
+	color: purple;
+}
+
+table.centerx { 
+/*  border-collapse: collapse;*/
+/*  vertical-align: top; */
+	margin-left: auto;
+	margin-right: auto; 
+	width: 90%;
+}
+
+table.centerx tr td{
+	width: 70%; 
+    font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid black; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+/*	background: #9bb7bd; */
+/*	padding-left:5px; */
+	background-color: #f3f3f3; 
+  text-align: center; 
+}
+
+dt.delete {
+  border: 2px solid black;
+  margin: auto;
+  font-weight: 500;
+  background: #9bb7bd; 
+  width: 90%;
+  height: 70px;
+  text-align: center; 
+  align: center;
+}
+
+p.centerx {
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  font-size: 28px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+div.drop {
+/*	margin-left: auto; */
+/*	align: center; */
+	font-size: 30px;
+	width: 100%;    
+/*	border: 4px solid black; */
+	border-collapse: collapse;
+	background-color: #f3f3f3; 
+	border-spacing: 0px;
+}
+
+table.button { 
+	width: 100%;
+	text-align:center;
+}
+
+table.button td {
+	background: #f3f3f3; 
+}
+
+}
